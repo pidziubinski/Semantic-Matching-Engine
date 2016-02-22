@@ -1,0 +1,8 @@
+*.pyc
+*.db
+
+serv_logs/*
+static/results/*
+
+run_dev.sh
+run_web_server.sh

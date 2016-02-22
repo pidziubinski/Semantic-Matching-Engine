@@ -1,0 +1,29 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }}</title>
+        {% else %}
+        <title>Semantic Matching Engine</title>
+        {% endif %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+        <link href="static/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div style="padding: 0 10px; font-size: 2.0em; font-weight: bold;">
+            Semantic Matching Engine
+            <span style="text-align: right; float: right; display:inline;">
+                <a target="_blank" href="https://pl.linkedin.com/pub/piotr-dziubinski/112/b89/b87"> 
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" with="160" height="33" border="0" alt="View Piotr Dziubinski's profile on LinedIn">
+                </a>
+            </span>
+        </div>
+
+        {% block content %}{% endblock %}
+
+    <footer style="padding: 0 10px; text-align: center;" class="footer">
+        <p>&copy; Piotr Dziubinski 2016</p>
+    </footer>
+    </body>
+</html>

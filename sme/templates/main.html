@@ -1,0 +1,40 @@
+<!-- extend from base layout -->
+{% extends "layout.html" %}
+
+{% block content %}
+    <form action="" method="post" name="main">
+        {{ form.hidden_tag() }}
+        <p class="jumbotron" align="center">
+            <span style="font-size: 1.2em; font-weight: bold; padding: 10px 0px">
+                Text 1
+            </span>
+            <br>
+            <span class="textboxclass">
+                {{ form.text_1 }}
+            </span>
+            <br>
+            <span style="font-size: 1.2em; font-weight: bold; padding: 10px 0px">
+                Text 2
+            </span>
+            <br>
+            <span class="textboxclass">
+                {{ form.text_2 }}
+            </span>
+            {% for error in form.text_1.errors %}
+                <span class="flash">
+                    <br>
+                    {{error}}
+                </span>
+            {% endfor %}
+            {% for error in form.text_2.errors %}
+                <span class="flash">
+                    <br>
+                    {{error}}
+                </span>
+            {% endfor %}
+            <br><br>
+            <!-- TODO <br><br> -->
+            <input class="btn btn-lg btn-success" type="submit" value="Check">
+        </p>
+    </form>
+{% endblock %}
