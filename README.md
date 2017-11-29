@@ -1,7 +1,9 @@
 # Semantic Matching Engine (Text mining app)
 Project created during "**[Koding Global Virtual Hackathon 2016](https://www.koding.com/blog/2016/03/2016-2016-winners/)**" in **48 hours**.
 
-![Example screenshot 1](images/1.png)
+## Example screenshot with results in Microsoft Word
+
+![Example screenshot with results in Microsoft Word 1](images/1.png)
 
 ## Technical details of the project
 
@@ -25,9 +27,9 @@ IDE used: **Koding**
 
 Link to [source code](https://github.com/pidziubinski/Semantic-Matching-Engine/tree/master/sme).
 
-## Example screenshot
+## Example screenshot with results in Microsoft Word
 
-![Example screenshot 2](images/2.png)
+![Example screenshot with results in Microsoft Word 2](images/2.png)
 
 ## Koding Global Virtual Hackathon 2016 information
 
