@@ -19,7 +19,7 @@ configobj==4.7.2
 gevent==1.0.2
 greenlet==0.4.9
 html5lib==0.999
-httplib2==0.8
+httplib2==0.18.0
 iotop==0.6
 itsdangerous==0.24
 jsonpatch==1.3
