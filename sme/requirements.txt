@@ -28,7 +28,7 @@ keyring==3.5
 launchpadlib==1.10.2
 lazr.restfulclient==0.13.3
 lazr.uri==1.0.3
-lxml==3.3.3
+lxml==4.6.2
 meld3==0.6.10
 mercurial==2.8.2
 oauth==1.0.1
