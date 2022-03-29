@@ -32,7 +32,7 @@ lxml==3.3.3
 meld3==0.6.10
 mercurial==2.8.2
 oauth==1.0.1
-paramiko==1.10.1
+paramiko==2.10.1
 prettytable==0.7.2
 pycrypto==2.6.1
 pygobject==3.12.0
