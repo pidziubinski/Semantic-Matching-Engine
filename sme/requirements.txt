@@ -18,7 +18,7 @@ colorama==0.2.5
 configobj==4.7.2
 gevent==1.0.2
 greenlet==0.4.9
-html5lib==0.999
+html5lib==0.999999999
 httplib2==0.8
 iotop==0.6
 itsdangerous==0.24
