@@ -40,7 +40,7 @@ pygpgme==0.3
 pyserial==2.6
 python-apt==0.9.3.5ubuntu2
 python-debian==0.1.21-nmu2ubuntu2
-python-docx==0.8.5
+python-docx==0.8.6
 requests==2.2.1
 retinasdk==1.0.0
 simplejson==3.3.1
